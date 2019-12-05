@@ -1,0 +1,55 @@
+import { Story, Preview, Meta, Props, html } from '@open-wc/demoing-storybook';
+
+import '../web-app.js';
+
+<Meta
+  title="WebApp"
+  parameters={{
+    component: "web-app",
+    options: { selectedPanel: "storybookjs/knobs/panel" }
+  }}
+/>
+
+# WebApp
+
+A component for... 3
+
+## Features:
+
+- a
+- b
+- ...
+
+## How to use
+
+### Installation
+
+```bash
+yarn add web-app
+```
+
+```js
+import 'web-app/web-app.js';
+```
+
+<Preview withToolbar>
+  <Story name="Simple">
+    {html`
+      <web-app></web-app>
+    `}
+  </Story>
+</Preview>
+
+## API
+
+<Props of="web-app" />
+
+## Variations
+
+###### Custom Title
+
+<Story name="Custom Titleasdasd">
+  {html`
+    <web-app .title=${'Hello World'}></web-app>
+  `}
+</Story>
