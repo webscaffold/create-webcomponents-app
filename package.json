@@ -58,7 +58,7 @@
   "author": "web-app",
   "license": "MIT",
   "dependencies": {
-    "lit-html": "^1.0.0",
+    "lit-html": "^1.2.1",
     "lit-element": "^2.0.1"
   }
 }
