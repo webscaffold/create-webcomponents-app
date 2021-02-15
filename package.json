@@ -18,7 +18,7 @@
     "start": "es-dev-server --app-index index.html --node-resolve --open --watch"
   },
   "devDependencies": {
-    "eslint": "^7.1.0",
+    "eslint": "^7.20.0",
     "@open-wc/eslint-config": "^2.0.6",
     "@open-wc/prettier-config": "^1.1.0",
     "husky": "^4.2.5",
